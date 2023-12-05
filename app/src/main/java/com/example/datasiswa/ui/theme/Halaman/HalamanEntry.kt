@@ -26,3 +26,10 @@ fun EntrySiswaScreen(
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
 
 }
+
+@Composable
+fun EntrySiswaBody(
+
+){
+
+}
