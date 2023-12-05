@@ -22,7 +22,7 @@ import com.example.datasiswa.ui.theme.Halaman.HomeScreen
 
 @Composable
 fun SiswaApp(navController: NavHostController = rememberNavController()){
-
+    HostNavigasi(navController = navController)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
