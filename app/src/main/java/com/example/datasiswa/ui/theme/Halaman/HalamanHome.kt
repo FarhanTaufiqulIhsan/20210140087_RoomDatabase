@@ -62,6 +62,10 @@ fun BodyHome(
                 textAlign = TextAlign.Center,
                 style = MaterialTheme.typography.titleLarge
             )
+        } else {
+            ListSiswa(
+                itemSiswa = itemSiswa,
+                modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.padding_small)))
         }
     }
 }
