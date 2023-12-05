@@ -7,8 +7,10 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.datasiswa.R
+import com.example.datasiswa.model.DetailSiswa
 import com.example.datasiswa.model.EntryViewModel
 import com.example.datasiswa.model.PenyediaViewModel
+import com.example.datasiswa.model.UIStateSiswa
 import com.example.datasiswa.navigasi.DestinasiNavigasi
 
 object DestinasiEntry: DestinasiNavigasi{
@@ -29,7 +31,10 @@ fun EntrySiswaScreen(
 
 @Composable
 fun EntrySiswaBody(
-
+    uiStateSiswa: UIStateSiswa,
+    onSiswaValueChange: (DetailSiswa) ->Unit,
+    onSaveClick: () -> Unit,
+    modifier: Modifier = Modifier
 ){
 
 }
